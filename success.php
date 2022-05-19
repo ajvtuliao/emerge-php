@@ -2,7 +2,11 @@
 <html>
     <body>
         Success! <br>
-        Thank you <?php echo $_POST["name"]; ?> for filling out this form. <br>
-        You may now exit this page.
+        <br>
+        Here's what we got from you: <br>
+        <br>
+        Name: <?php echo $_POST["name"]; ?> <br>
+        Birthdate: <?php echo $_POST["date"]; ?> <br>
+        Gender: <?php echo $_POST["gender"]; ?> <br>
     </body>
 </html>
